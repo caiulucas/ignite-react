@@ -1,0 +1,67 @@
+.posts {
+  > a {
+    display: block;
+    transition: color 0.2s;
+
+    &:hover {
+      color: var(--pink-700);
+    }
+
+    & + a {
+      margin-top: 3rem;
+    }
+
+    h1 {
+      font-size: 1.75rem;
+    }
+
+    p {
+      font-size: 1.125rem;
+      margin-top: 0.5rem;
+      color: var(--gray-200);
+    }
+
+    div {
+      margin-top: 1.25rem;
+    }
+  }
+
+  button {
+    margin-top: 4rem;
+    background: transparent;
+    color: var(--pink-700);
+    font-weight: 600;
+
+    transition: filter 0.2s;
+
+    &:hover {
+      filter: brightness(0.8);
+    }
+  }
+}
+
+.previewLink {
+  width: 100%;
+  padding: 1.125rem 0;
+  margin: 6.5rem 0;
+  border-radius: 0.25rem;
+
+  background: var(--white);
+  color: var(--gray-900);
+  font-weight: 600;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  a {
+    transition:  0.2s;
+    
+    &:hover {
+      text-decoration: underline;
+      color: var(--pink-700);
+    }  
+  }
+
+  
+}
